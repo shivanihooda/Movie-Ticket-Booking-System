@@ -39,7 +39,7 @@ def get_available_seats(show_name):
 
 def input_hall_selection(hall_id, seat_number):
     for hall in halls_list:
-        if hall.get_id() == hall_id:
+        if hall.get_id() == int(hall_id):
             for seat in seat_number:
                 hall.update_seat_status(seat, False)
 
