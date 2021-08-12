@@ -60,7 +60,7 @@ def run():
     customer.set_seat_id(seat_number)
     input_hall_selection(hall_id, [int(seat_number)])
     print(f'Seats Booked!!')
-    print(f"Seat confirmation: {customer.get_show_name()},hall:{customer.get_hall_id()},seat:{customer.get_seat_id()}")
+    print(f"Seats confirmation:{customer.get_show_name()},hall:{customer.get_hall_id()},seat:{customer.get_seat_id()}")
 
 
 if __name__ == '__main__':
